@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Web Stream</title>
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto+Condensed" rel="stylesheet">
+      <style>
+      .link_btn{
+        padding:1%;
+        background-color: dodgerblue;
+        border-radius: 5%;
+        color:white;
+      }
+      .booth{
+          text-align: center;
+          border-radius: 10%;
+          padding-bottom:5%;
+      }
+      body{
+          text-align: center;
+          font-family: 'Roboto Condensed', sans-serif;
+      }
+      .deposit{
+        padding:5%;
+      }
+      .footer{
+        background-color: #3d4347;
+        color:white;
+        padding: 1%;
+      }
+      .descr{
+          margin-left:15%;
+          margin-right:15%;
+      }
+      .header {
+          font-family: 'Poiret One', cursive;
+          overflow: hidden;
+          background-color: #3d4347;
+          padding: 20px 10px;
+      }
+
+      .header a {
+          float: left;
+          color: white;
+          text-align: center;
+          padding: 12px;
+          text-decoration: none;
+          font-size: 18px;
+          line-height: 25px;
+          border-radius: 4px;
+        }
+
+        .header a.logo {
+          font-size: 25px;
+          font-weight: bold;
+          color:white;
+        }
+
+        .header a:hover {
+          background-color: #ddd;
+          color: white;
+        }
+
+        .header a.active {
+          background-color: dodgerblue;
+          color: white;
+        }
+
+        .header-right {
+          float: right;
+        }
+
+        @media screen and (max-width: 500px) {
+          .header a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+          .header-right {
+            float: none;
+          }
+        }
+        {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {
+  display: none
+}
+
+img {
+  border-radius:5%;
+  text-align: center;
+  height:315px;
+  width:560px;
+  }
+
+/* Slideshow container */
+.slideshow-container {
+ max-width: 516px;
+ position: relative;
+ margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ padding: 16px;
+ margin-top: -22px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+ color: #f2f2f2;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+ background-color: #717171;
+}
+
+.container{
+  text-align: center;
+}
+/* Fading animation */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+ .prev, .next,.text {font-size: 11px}
+}
+      </style>
+  </head>
+  <body>
+      <div class="header">
+          <a href="#default" class="logo">Watkins Doberman Puppies</a>
+          <div class="header-right">
+              <a class="active" href="#home">Home</a>
+              <a href="#contact">Contact</a>
+              <a href="#about">About</a>
+    </div>
+</div>
+      <div>
+          <h1 class = 'stream_title'>See the puppies live!</h1>
+      </div>
+      <div class = "booth">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DgMr6VdBEpM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div>
+          <p class = "descr">
+We're taking $700 deposits to hold priority picks. 2 black females, 2 black males and one blue available.
+
+We've had Dobermans for 34 years and these two are exceptional for families.
+The female is a full European I brought in from an exceptional line on the east coast.
+The male is the best Doberman I've had with all ages, from babies to adults.
+It was important for me to get an out of state female to avoid all the interbreeding</p>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+<div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="/puppyweb/chelseafabrizio-14.jpg" style="width:100%">
+          <div class="text">Ireland</div>
+        </div>
+
+        <div class = "container">
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://lh3.googleusercontent.com/_hc-rkIbqDBzQm7US3AoMRfXbhWokqxRRrrOcCmJbfY0pY-AmbgxzHjW4asuoQqU9gbnbBXWOPTZTk9l6oJc-f8miGJqS6vro-5LKe7Sj27BBEIKeElCExi552BcXWI64RZAcX_ml8lLCj23UptcBasFATQlaiVPC-37N5IKn3yPBT5DSSkSu6QciPOPe5gc4h-A6V5-1it7BFvveQoJ4hUyV_gKJUEMsW6BBKh0hs0EYrmOt7sO9GdmLpQSGdbFJXBSGDIi__vWNkT49nnH66yBDWEXPACdu5kHVg8Mr0aTZUq5pMZXWVsxuLilXaP4D78EHdSGGEg7e0QfLawgtzyi9wzsgtVtC8m_nrr0HyF2FEEzNz1bICq6eLN1ZawC33HGxZbhUlSbpnXKhmaOGO7oGan5RL10jBeVRx8EdR7puj6sPnLA-N8n-1LvnLeJqGU8zjR9sjLWAxYx2eGfiQRwGJJmHU-AAFsCWhaVrJ8lxwdvVw-Zy8O9Z5pmdJ5Wk-_Vn5WEwZ-ZtweeXo01pZuXnO67dxVoXBptP6iKlqiqMeD5KvuNpykBmTs2HtPmRcSmGjJeUS_Cy4wReYub6Ul1RytRYPh66Qrn1ro=w1200-h800-no" style="width:100%">
+            <div class="text">Wedding</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://lh3.googleusercontent.com/8zLWfKtdLnVoayQen2zguUW-pTDSifjgCbQqgIlxhxywsPOWmzlYeRei7tupPPh1IDAScNXizqN2S4cpEBUL3BIaHQ8zr6XjqC38ocAdxDZDAi2m3so0T5QeVy1psWM2rf8tU1t2lk9PS4H2xCqdbd8MT1xEfafPxYRxiwYcDVghjBht0yfP4yd-D9C1vAx1BubcvRRGqVuRYPywDeoUX3mNvOSWGy8CXwTTVozsAvj4pHrrDvzVM6tHCYdl27MLozOzixaWLg3Zp2QC9b7mF-C-O96nPyqL9R5nRI4Uso8acifkXnA0l5XWV39xAIGSrOOyQCBBBbgHJaWTl5pjIJUjw_34Xe0zMXn9LxNa84S2bg34yh1c3ZXkUWrjluwHhqdKDAVrBgswfQxg_wReoshghkVFc89juHZPTkAtnY1jnAPXulSSI_xS448OCYVguCXDuxcBR7mwChZWjLhn6qxfg6YeM7SfAIgmtxJXjweJQZki2FMeF8UvI_AKlQLplP1hupUamUZxDJhJkaPLhVqbSXfpFqs4FAGPON2wb07Y3t-f51-8TiFSAoMWM_XT7FRP727UGDl6ZKqhUitCae_YwQBL6wJM0FMp6go=w1067-h800-no" style="width:100%">
+            <div class="text">Alaska</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          </div>
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<br>
+<br>
+<br>
+<br>
+      <div>
+          <h2>3 Black/Tan males</h2>
+          <h2>2 Black/Tan Females</h2>
+          <h2>2 Blue Males</h2>
+        </div>
+        <br>
+      <div>
+          <a class = 'link_btn' href = "https://www.ksl.com/classifieds/listing/51569889">Go To Add</a>
+        <h3 class = "deposit">Accepting $725 deposits for priority selection</h3>
+      </div>
+      <div class = "footer">
+          <h2>Contact Info</h2>
+          <h3>Text (preferred): 801-376-8248</h3>
+          <h3>Email: alpinewatkins@gmail.com</h3>
+      </div>
+  </body>
+  <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>
